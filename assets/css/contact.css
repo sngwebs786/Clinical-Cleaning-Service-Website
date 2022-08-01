@@ -1,0 +1,77 @@
+/* ========================================== Get in touch heading ====================================== */
+
+.contact-hd{
+  padding-top: 130px;
+  text-align: center;
+}
+
+.contact-hd p {
+  font-family: "Open Sans", sans-serif;
+  color: #282b2f;
+  font-weight: 600;
+}
+color{
+  color: rgb(209, 9, 9);
+}
+/* ===================================== Get in touch heading End ====================================== */
+
+
+/*============================================== Contact Form ========================================*/
+.contact-form{
+  margin-top: 50px;
+}
+
+.info{
+  margin-top: 50px !important;
+}
+
+.info h4{
+  font-size: 20px;
+  color: #212529;
+  font-weight: 400;
+}
+
+.info i {
+  margin-right: 20px;
+    font-size: 20px;
+    color: rgb(209, 9, 9);
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fff0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.inputs input{
+ padding-left: 20px;
+  width: 100%;
+}
+textarea{
+ padding-left: 20px;
+  margin-top:20px !important;
+  width: 100%;
+  border: black 1px solid !important ;
+
+}
+.inputs input{
+  border: black 1px solid !important ;
+  height: 40px;
+margin-top: 20px;
+}
+.submitBtn{
+  margin-top: 20px;
+  background-color: rgb(209, 9, 9) !important;
+  border: none !important;
+  outline: none !important;
+  float: right;
+}
+.submitBtn:focus{
+  outline: none;
+  border: none;
+}
+/*=========================================== Contact Form End ========================================*/
+
+/*----------------------------------------- Contact Page End -----------------------------------------*/

@@ -1,0 +1,93 @@
+
+/* NAVBAR */
+.content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar1{
+    background-color: #fff;
+  position: fixed;
+  width: 100% !important;
+  z-index: 2;
+  padding: 20px 0;
+  transition: all 0.3s ease;
+}
+.navbar1.sticky{
+  background: #fff !important;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px 2px rgba(14, 14, 14, 0.1);
+  margin-top: -60px !important;
+  padding-top: 20px;
+}
+.main-title{
+    color: rgb(209, 9, 9) !important;
+}
+.navbar1.sticky li a {
+    color: black !important;
+}
+.navbar1.sticky li a:hover {
+  color: rgb(209, 9, 9) !important;
+  transition: 0.5s;
+}
+extra{
+    color: #000 !important;
+}
+.navbar1.navbar1.sticky extra {
+    color: #000 !important;
+}
+.navbar1 .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar1 .logo a{
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar1 .menu-list{
+  display: inline-flex;
+}
+.menu-list li{
+  list-style: none;
+}
+.menu-list li a{
+    font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  padding-left: 30px;
+  transition: all 0.3s ease;
+}
+.menu-list li a:hover{
+  color: rgb(209, 9, 9);
+}
+.navbar.sticky .menu-list li a:hover{
+  color: rgb(209, 9, 9) !important;
+}
+
+.about{
+  padding: 30px 0;
+}
+
+.icon{
+  color: rgb(209, 9, 9);
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.cancel-btn{
+  color: #fff;
+}
+.navbar1.sticky .icon{
+  color: rgb(209, 9, 9);
+}
+.menu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}

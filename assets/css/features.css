@@ -1,0 +1,28 @@
+.features{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around;
+    background-color:rgb(209, 9, 9) !important;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.features-boxes{
+    margin-top: 50px;
+    color: #fff;
+    width: 200px;
+    margin: 40px;
+}
+
+.features-boxes img{
+    height: 50px;
+    width: 50px;
+}
+
+.features-boxes h5{
+    margin-top: 20px;
+}
+
+.features-boxes p{
+    margin-top: 20px;
+}

@@ -1,0 +1,77 @@
+/* HEADER  */
+
+@media only screen and (max-width: 841px) {
+.header-div div{
+ display: flex !important;
+ align-items: center !important;
+ justify-content: center !important;
+}
+}
+
+
+
+
+/* NAVBAR  */
+
+
+@media (max-width: 1230px) {
+  .content{
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1100px) {
+  .content{
+    padding: 0 40px;
+  }
+}
+@media (max-width: 900px) {
+  .content{
+    padding: 0 30px;
+  }
+}
+@media (max-width: 868px) {
+  body.disabled{
+    overflow: hidden;
+  }
+  .icon{
+    display: block;
+    /* position: fixed;
+    float: right !important; */
+  }
+  .icon.hide{
+    display: none;
+  }
+  .navbar1 .menu-list{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: rgb(209, 9, 9);
+    transition: all 0.3s ease;
+  }
+  .navbar1.show .menu-list{
+    left: 0%;
+  }
+  .navbar1 .menu-list li{
+    margin-top: 45px;
+  }
+  .navbar1 .menu-list li a{
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #fff;
+  }
+  .navbar1.show .menu-list li a{
+    margin-left: 0px;
+}
+}
+@media (max-width: 380px) {
+    .navbar1 .logo a{
+        font-size: 27px;
+    }
+}

@@ -1,0 +1,19 @@
+
+/* HEADER  */
+
+.header-div{
+    height: 60px;
+    background-color:rgb(209, 9, 9)!important;
+}
+
+
+.header-div p{
+    padding: 8px;
+    text-transform: uppercase !important;
+    color: white;
+    float: right;
+    margin-right: 150px;
+    margin-top: 10px;
+    font-size: 15px;
+    border:1px solid white;
+}

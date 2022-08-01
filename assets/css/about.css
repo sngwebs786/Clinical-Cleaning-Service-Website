@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* background-color: black; */
+}
+
+.about div h1{
+    color: rgb(209, 9, 9);
+    margin-bottom: 40px;
+}
+
+.about div h4{
+    margin-top: 40px;
+    color: rgb(209, 9, 9);
+    margin-bottom: 20px;
+}
+
+.about div p{
+   text-align: center;
+   font-size: 20px;
+}

@@ -1,0 +1,35 @@
+
+.cor-div{
+    background-image: linear-gradient(rgba(0,0,0,0.22),rgba(0,0,0,0.55)),url('../images/hero.jpg');   /*To make blurry pic*/
+    background-color: white !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+.cor-div h1{
+    padding-top: 40vh;
+    font-size: 9vh;
+    letter-spacing:1mm;
+    font-style: italic;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+best{
+    font-family: 'Amatic SC', cursive;
+    color: rgb(243, 63, 63);
+    /* font-size: 4vh; */
+}
+.h1color{
+    color: rgb(243, 63, 63) !important;
+}
+
+
+/* ========================================= Slider End =================================================== */
